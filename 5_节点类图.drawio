@@ -1,4 +1,4 @@
-<mxfile modified="2020-02-09T15:43:11.744Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="QThLVeaP5t4cjPZG2O18" version="12.6.6" type="github">
+<mxfile modified="2020-02-10T02:54:32.173Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36" etag="QvL4HUz26v6qbdeEeipm" version="12.6.6" type="github">
   <diagram id="JTEC7zDQZaKKNVADHG2T" name="Page-1">
     <mxGraphModel dx="946" dy="477" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,13 +39,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XV6cIktCAMGyIGafRsGl-11" value="router" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="531" y="259" width="140" height="78" as="geometry"/>
+          <mxGeometry x="531" y="259" width="140" height="52" as="geometry"/>
         </mxCell>
         <mxCell id="XV6cIktCAMGyIGafRsGl-12" value="+ protocol:enumerate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XV6cIktCAMGyIGafRsGl-11" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry"/>
-        </mxCell>
-        <mxCell id="XV6cIktCAMGyIGafRsGl-14" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="XV6cIktCAMGyIGafRsGl-11" vertex="1">
-          <mxGeometry y="52" width="140" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="XV6cIktCAMGyIGafRsGl-15" value="interface" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="90" width="140" height="104" as="geometry"/>
