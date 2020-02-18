@@ -1,6 +1,6 @@
-<mxfile modified="2020-02-18T07:22:19.608Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="tqx5sg6hWOtgbktcAxyM" version="12.7.1" type="github">
+<mxfile modified="2020-02-18T08:11:52.158Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Safari/537.36" etag="oaYnecGXMBWm5yb0gcUe" version="12.7.1" type="github">
   <diagram id="JTEC7zDQZaKKNVADHG2T" name="Page-1">
-    <mxGraphModel dx="946" dy="477" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
         <mxCell id="eBM_6JwckMkyRj_pSC0B-7" value="续航时间、充电操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="130" y="450" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-8" target="eBM_6JwckMkyRj_pSC0B-26" edge="1">
+        <mxCell id="eBM_6JwckMkyRj_pSC0B-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-8" target="eBM_6JwckMkyRj_pSC0B-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eBM_6JwckMkyRj_pSC0B-8" value="移动终端运行状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
