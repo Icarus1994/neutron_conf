@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-23T11:24:41.062Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="naKCdTJm7j14rwYAxoPZ" version="12.7.4" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-02-23T11:25:22.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36" etag="OFQvpoOrNOwLsUw3a9X1" version="12.7.4" type="github" pages="3">
   <diagram id="NicKrYoGJLILaWsg-6yA" name="Page-1">
     <mxGraphModel dx="1106" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -327,19 +327,19 @@
           <mxGeometry x="326" y="130" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_dMCLQlBz_V8KO9sm1QZ-13" value="WLAN" style="ellipse;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#FFFFFF;strokeColor=#B5739D;" vertex="1" parent="a_nWRPTZWH9uXr03FxxT-1">
-          <mxGeometry x="810" y="460" width="80" height="30" as="geometry" />
+          <mxGeometry x="791" y="445" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_dMCLQlBz_V8KO9sm1QZ-14" value="Mobile&lt;br&gt;Data" style="ellipse;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#FFFFFF;strokeColor=#B5739D;" vertex="1" parent="a_nWRPTZWH9uXr03FxxT-1">
-          <mxGeometry x="860" y="415" width="80" height="30" as="geometry" />
+          <mxGeometry x="830" y="403" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_dMCLQlBz_V8KO9sm1QZ-17" value="Boot" style="ellipse;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#FFFFFF;strokeColor=#B5739D;" vertex="1" parent="a_nWRPTZWH9uXr03FxxT-1">
-          <mxGeometry x="890" y="310" width="80" height="30" as="geometry" />
+          <mxGeometry x="848" y="305" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_dMCLQlBz_V8KO9sm1QZ-18" value="Reboot" style="ellipse;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#FFFFFF;strokeColor=#B5739D;" vertex="1" parent="a_nWRPTZWH9uXr03FxxT-1">
-          <mxGeometry x="870" y="350" width="80" height="30" as="geometry" />
+          <mxGeometry x="836" y="360" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_dMCLQlBz_V8KO9sm1QZ-19" value="Shutdown" style="ellipse;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#FFFFFF;strokeColor=#B5739D;" vertex="1" parent="a_nWRPTZWH9uXr03FxxT-1">
-          <mxGeometry x="870" y="270" width="80" height="30" as="geometry" />
+          <mxGeometry x="827" y="260" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_dMCLQlBz_V8KO9sm1QZ-25" value="InstallApp" style="ellipse;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#FFFFFF;strokeColor=#B5739D;" vertex="1" parent="a_nWRPTZWH9uXr03FxxT-1">
           <mxGeometry x="630" y="540" width="80" height="30" as="geometry" />
