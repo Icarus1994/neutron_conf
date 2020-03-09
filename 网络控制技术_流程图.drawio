@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-09T10:18:06.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="ODY7Eq_bP07MeIuf0h0F" version="12.8.1" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-03-09T10:19:56.987Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="OZ2MsoQL_gIQjkbYFuuj" version="12.8.1" type="github" pages="3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="拓扑与链路控制技术">
-    <mxGraphModel dx="1106" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,7 +145,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v8ugOdhWxPYhqjRlqoNW" name="网络行为控制">
-    <mxGraphModel dx="1106" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="1707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XkxrOACsHn2WorxNWKab-0" />
         <mxCell id="XkxrOACsHn2WorxNWKab-1" parent="XkxrOACsHn2WorxNWKab-0" />
@@ -211,9 +211,6 @@
         </mxCell>
         <mxCell id="XkxrOACsHn2WorxNWKab-54" value="&lt;font style=&quot;font-size: 15px&quot;&gt;访问虚拟机执行行为&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="XkxrOACsHn2WorxNWKab-1">
           <mxGeometry x="134.25" y="342" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FGpXlcg3w5gOP9-YCDFg-0" value="&lt;font style=&quot;font-size: 15px&quot;&gt;用表格呈现网络行为对应控制方式&lt;br&gt;终端状态改变：开关上网开关（命令行实现虚拟机端口状态改变）；关机，&lt;br&gt;接入点状态：接口状态关闭&lt;br&gt;这些由网络行为控制实现&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="XkxrOACsHn2WorxNWKab-1">
-          <mxGeometry x="475" y="175" width="510" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FGpXlcg3w5gOP9-YCDFg-1" value="仿真流程结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=15;" vertex="1" parent="XkxrOACsHn2WorxNWKab-1">
           <mxGeometry x="148.5" y="490" width="100" height="40" as="geometry" />
@@ -289,7 +286,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BHsUnkRRkDvubZXYA5oQ" name="位置到链路状态转换">
-    <mxGraphModel dx="1106" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1106" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GKkQAI3s9Y34zm4RplyS-0" />
         <mxCell id="GKkQAI3s9Y34zm4RplyS-1" parent="GKkQAI3s9Y34zm4RplyS-0" />
