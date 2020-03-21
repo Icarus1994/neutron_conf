@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2020-03-21T02:41:35.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" version="12.8.8" etag="DRAgQzLYhSXA3cripiiF" type="github"><diagram id="sswHll2wC1va1XKW06WZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-03-21T06:44:20.677Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="QuZewlfekCm2V_VeudGA" version="12.8.8" type="github">
+  <diagram id="sswHll2wC1va1XKW06WZ" name="Page-1">
+    <mxGraphModel dx="946" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4VM7OK9EREBoeNNhaifb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4VM7OK9EREBoeNNhaifb-1" target="4VM7OK9EREBoeNNhaifb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-12" value="总结" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="4VM7OK9EREBoeNNhaifb-8">
+          <mxGeometry x="-0.125" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4VM7OK9EREBoeNNhaifb-7" target="4VM7OK9EREBoeNNhaifb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-16" value="作为" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="4VM7OK9EREBoeNNhaifb-15">
+          <mxGeometry x="-0.025" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="160" width="220" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-2" value="移动终端用户行为场景（场景一）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-5" value="移动终端攻击行为场景（场景二）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-6" value="移动互联网场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-9" value="移动互联网场景下动态网络特点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-17" value="原型系统功能需求（仿真目标）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="180" width="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-19" value="（枚举）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-20" value="（总结归纳）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="370" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-21" value="支持拓扑与链路参数控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="200" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-22" value="拓扑与链路性能实时变化；引起拓扑变化原因&#xa;&#xa;2）存在大量不同操作类型且资源受限的节点；&#xa;&#xa;3）终端联网：WLAN，mobiledata,哪个好仿真仿真哪个，蓝牙（蓝牙蠕虫）、热点（别人做不了）&#xa;&#xa;4）移动终端与接入网络安全问题突出：" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="550" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-23" value="拓扑与链路性能实时变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-24" value="存在大量异质节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-25" value="存在丰富的网络行为以及伴随的实体状态变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-26" value="支持多种类型节点仿真" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="255" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4VM7OK9EREBoeNNhaifb-27" value="支持场景一和场景二下的网络行为仿真" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="310" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
