@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-26T12:15:36.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kHUnbSPilcV189yUHfHH" version="12.9.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-26T15:03:24.739Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="gO-wYCGbHGdQmOEbJjzW" version="12.9.2" type="github" pages="5">
   <diagram id="aFrichsZubXLWK6YZcP_" name="Page-1">
     <mxGraphModel dx="946" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -499,7 +499,7 @@
             <mxPoint x="124" y="387" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NJEcU-oL9rQNw698swnb-147" value="&lt;font style=&quot;font-size: 14px&quot;&gt;功能&lt;br&gt;&lt;br&gt;  &lt;br&gt;手机&lt;br&gt;  &lt;br&gt;  &lt;br&gt;  开关机、重启&lt;br&gt;&lt;br&gt;  &lt;br&gt;U：联网（不联网也可以是在虚拟网络中联通）&lt;br&gt;  &lt;br&gt;U：操作系统初始化&lt;br&gt;  &lt;br&gt;无线网卡工作模式&lt;br&gt;充电&lt;br&gt;热点开启（和ap生成原理一样）&lt;br&gt;飞行模式&lt;br&gt;移动行为&lt;br&gt;蓝牙&lt;br&gt;usb连接&lt;br&gt;手动选择AP(选择信号不一定是最强的)&lt;br&gt;流量上网开关&lt;br&gt;  &lt;br&gt; &lt;br&gt; &lt;br&gt;  &lt;br&gt;  路由器&lt;br&gt;  操作系统初始化&lt;br&gt;  &lt;br&gt;端口状态改变&lt;br&gt;  &lt;br&gt;蜂窝基站&lt;br&gt;  &lt;br&gt;基站位置，发射功率&lt;br&gt;  &lt;br&gt;AP[l1]&amp;nbsp;&lt;br&gt;  &lt;br&gt;  修改SSID&lt;br&gt;  认证方式选择（WPA,WEP）&lt;br&gt;密码设置&lt;br&gt;Ssid广播开启[l2]&amp;nbsp;&lt;br&gt;&amp;nbsp;[l1]只用软件就有iw命令&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;" parent="a1j12kgbCN-dSTeJvIJ7-1" vertex="1">
+        <mxCell id="NJEcU-oL9rQNw698swnb-147" value="&lt;font style=&quot;font-size: 14px&quot;&gt;手机&lt;br&gt;U：联网（不联网也可以是在虚拟网络中联通）&lt;br&gt;  &lt;br&gt;U：操作系统初始化&lt;br&gt;  &lt;br&gt;无线网卡工作模式&lt;br&gt;充电&lt;br&gt;热点开启（和ap生成原理一样）&lt;br&gt;飞行模式&lt;br&gt;移动行为&lt;br&gt;蓝牙&lt;br&gt;usb连接&lt;br&gt;手动选择AP(选择信号不一定是最强的)&lt;br&gt;流量上网开关&lt;br&gt;  &lt;br&gt; &lt;br&gt; &lt;br&gt;  &lt;br&gt;  路由器&lt;br&gt;  操作系统初始化&lt;br&gt;  &lt;br&gt;端口状态改变&lt;br&gt;  &lt;br&gt;蜂窝基站&lt;br&gt;  &lt;br&gt;基站位置，发射功率&lt;br&gt;  &lt;br&gt;AP[l1]&amp;nbsp;&lt;br&gt;  &lt;br&gt;  修改SSID&lt;br&gt;  认证方式选择（WPA,WEP）&lt;br&gt;密码设置&lt;br&gt;Ssid广播开启[l2]&amp;nbsp;&lt;br&gt;&amp;nbsp;[l1]只用软件就有iw命令&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;" parent="a1j12kgbCN-dSTeJvIJ7-1" vertex="1">
           <mxGeometry x="660" y="10" width="250" height="700" as="geometry" />
         </mxCell>
         <mxCell id="Hy9gdf-j_098mDrj9bar-0" value="虽然在加入AP范围、打开wlan开关的过程中随时可能开启飞行模式，但是类比开关机，随时可能开关机但是将开机、关机设置为互斥状态即可，参考HTA论文心脏起搏器" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="a1j12kgbCN-dSTeJvIJ7-1" vertex="1">
@@ -556,73 +556,113 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Z9b7gAhqbV8PLL1v7m_X-0" value="开关机、重启U：联网（不联网也可以是在虚拟网络中联通）&lt;br&gt;U：操作系统初始化无线网卡工作模式充电热点开启（和ap生成原理一样）&lt;br&gt;飞行模式&lt;br&gt;移动行为&lt;br&gt;蓝牙&lt;br&gt;usb连接&lt;br&gt;手动选择AP(选择信号不一定是最强的)&lt;br&gt;" style="text;html=1;" vertex="1" parent="a1j12kgbCN-dSTeJvIJ7-1">
-          <mxGeometry x="20" y="800" width="1180" height="30" as="geometry" />
+          <mxGeometry x="40" y="340" width="410" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="lBTVjrpFtPlSvfXPE-yA" name="HTA网络">
-    <mxGraphModel dx="946" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="lBTVjrpFtPlSvfXPE-yA" name="手机HTA">
+    <mxGraphModel dx="946" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-0" />
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-1" parent="OK4zo2aXVQQvM4CUJmcJ-0" />
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-4" value="关机" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-7" target="OK4zo2aXVQQvM4CUJmcJ-3">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="200" y="132.5" width="630" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-4" value="关机或B==0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.591;exitY=-0.001;exitDx=0;exitDy=0;curved=1;exitPerimeter=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-7">
+          <mxGeometry x="0.0583" relative="1" as="geometry">
             <mxPoint x="304.14213562373106" y="125.85786437626894" as="sourcePoint" />
+            <mxPoint x="480" y="70" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="390" y="90" />
+              <mxPoint x="486" y="130" />
+              <mxPoint x="460" y="130" />
+              <mxPoint x="460" y="120" />
+              <mxPoint x="445" y="120" />
+              <mxPoint x="445" y="70" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-6" value="开机" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-3" target="OK4zo2aXVQQvM4CUJmcJ-7">
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-6" value="开机&lt;br&gt;B==D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=1;entryX=0.633;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-3" target="OK4zo2aXVQQvM4CUJmcJ-7">
           <mxGeometry x="-0.182" relative="1" as="geometry">
             <mxPoint x="310" y="140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="480" y="100" />
+              <mxPoint x="520" y="66" />
+              <mxPoint x="520" y="90" />
+              <mxPoint x="530" y="90" />
+              <mxPoint x="530" y="132" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="414" y="20" width="30" height="30" as="geometry" />
+          <mxGeometry x="470" y="40" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="220" y="150" width="380" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-8" target="OK4zo2aXVQQvM4CUJmcJ-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-8" target="OK4zo2aXVQQvM4CUJmcJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="186" />
+              <mxPoint x="260" y="290" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-18" value="进入基站覆盖范围&lt;br&gt;且发送连接请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-11">
           <mxGeometry x="-0.0493" y="2" relative="1" as="geometry">
-            <mxPoint x="85.73" y="-31.53" as="offset" />
+            <mxPoint x="273" y="-22.21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-8" target="OK4zo2aXVQQvM4CUJmcJ-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-8" target="OK4zo2aXVQQvM4CUJmcJ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="164" />
+              <mxPoint x="580" y="264" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-17" value="进入AP覆盖范围&lt;br&gt;且wifi连接请求!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-12">
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-17" value="进入AP覆盖范围&lt;br&gt;且&lt;font color=&quot;#ff0000&quot;&gt;wifi连接请求!&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;white-space: normal ; background-color: rgb(248 , 249 , 250)&quot;&gt;f:=1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-12">
           <mxGeometry x="-0.1804" y="-1" relative="1" as="geometry">
-            <mxPoint x="-75" y="13.420000000000002" as="offset" />
+            <mxPoint x="-263.61" y="74.60000000000001" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-8" value="S1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="334" y="170" width="30" height="30" as="geometry" />
+          <mxGeometry x="340" y="160" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-9" target="OK4zo2aXVQQvM4CUJmcJ-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-9" target="OK4zo2aXVQQvM4CUJmcJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="305" />
+              <mxPoint x="270" y="410" />
+              <mxPoint x="380" y="410" />
+              <mxPoint x="380" y="395" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-19" value="进入AP覆盖范围&lt;br&gt;且发送连接请求!&lt;br&gt;f:=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-15">
           <mxGeometry x="-0.3083" relative="1" as="geometry">
-            <mxPoint x="72.08" y="-19.09" as="offset" />
+            <mxPoint x="195" y="-53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-9" target="OK4zo2aXVQQvM4CUJmcJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="316" y="270" />
+              <mxPoint x="355" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-9" value="开启飞行模式&lt;br&gt;或离开AP覆盖范围&lt;br&gt;或关闭开wifi开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="7NydNq4-33c9TfvPZBPD-8">
+          <mxGeometry x="0.0923" y="1" relative="1" as="geometry">
+            <mxPoint x="-14" y="-4.789999999999999" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-9" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
           <mxGeometry x="290" y="290" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-14" target="OK4zo2aXVQQvM4CUJmcJ-21">
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-14" target="OK4zo2aXVQQvM4CUJmcJ-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="450" />
+              <mxPoint x="480" y="395" />
+              <mxPoint x="480" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -632,33 +672,58 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5M8bxR-M_Gu3PV9GTdZs-0" value="离开AP覆盖范围&lt;br&gt;或关闭wifi&lt;br&gt;f:=0" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-14" target="OK4zo2aXVQQvM4CUJmcJ-10">
-          <mxGeometry x="-0.3188" relative="1" as="geometry">
+          <mxGeometry x="-0.0374" y="18" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="384" />
-              <mxPoint x="480" y="320" />
-              <mxPoint x="470" y="320" />
-              <mxPoint x="470" y="266" />
+              <mxPoint x="540" y="384" />
+              <mxPoint x="540" y="310" />
+              <mxPoint x="531" y="310" />
             </Array>
+            <mxPoint x="28" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMU3LT3OsaEy583QOGj-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-14" target="OK4zo2aXVQQvM4CUJmcJ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="384" />
+              <mxPoint x="330" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMU3LT3OsaEy583QOGj-4" value="离开基站覆盖范围&lt;br&gt;或断开wifi连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="FKMU3LT3OsaEy583QOGj-3">
+          <mxGeometry x="-0.0844" y="-17" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-13" value="开启飞行模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="7NydNq4-33c9TfvPZBPD-11">
+          <mxGeometry x="0.0031" y="-11" relative="1" as="geometry">
+            <mxPoint x="9" y="-10.79" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-14" value="S4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
           <mxGeometry x="414" y="380" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeZO45FWvY5HhLCvudT6-1" value="关闭热点&lt;br&gt;且f==1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-14">
+        <mxCell id="AeZO45FWvY5HhLCvudT6-1" value="关闭热点&lt;br&gt;且f==1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="450" />
+              <mxPoint x="418" y="520" />
+              <mxPoint x="330" y="520" />
+              <mxPoint x="330" y="440" />
+              <mxPoint x="429" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AeZO45FWvY5HhLCvudT6-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-10">
+        <mxCell id="AeZO45FWvY5HhLCvudT6-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="505" />
-              <mxPoint x="520" y="280" />
-              <mxPoint x="440" y="280" />
-              <mxPoint x="440" y="266" />
+              <mxPoint x="590" y="494" />
+              <mxPoint x="590" y="320" />
+              <mxPoint x="550" y="320" />
+              <mxPoint x="550" y="275" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -667,29 +732,63 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FKMU3LT3OsaEy583QOGj-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMU3LT3OsaEy583QOGj-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="550" />
+              <mxPoint x="210" y="550" />
+              <mxPoint x="210" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKMU3LT3OsaEy583QOGj-11" value="开启飞行模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="FKMU3LT3OsaEy583QOGj-10">
+          <mxGeometry x="-0.5167" y="-13" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-21" value="S5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
           <mxGeometry x="414" y="490" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-10" target="OK4zo2aXVQQvM4CUJmcJ-14">
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-10" target="OK4zo2aXVQQvM4CUJmcJ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-20" value="进入基站覆盖范围&lt;br&gt;且发送连接请求!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-16">
           <mxGeometry x="-0.1695" y="1" relative="1" as="geometry">
-            <mxPoint x="-69.21" y="24.92" as="offset" />
+            <mxPoint x="-138.20999999999998" y="84.92" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AeZO45FWvY5HhLCvudT6-2" value="打开热点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;curved=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-10">
+        <mxCell id="AeZO45FWvY5HhLCvudT6-2" value="打开热点" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-10" target="OK4zo2aXVQQvM4CUJmcJ-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="240" />
-              <mxPoint x="560" y="240" />
-              <mxPoint x="560" y="490" />
+              <mxPoint x="560" y="264" />
+              <mxPoint x="560" y="275" />
+              <mxPoint x="650" y="275" />
+              <mxPoint x="650" y="505" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-10" target="OK4zo2aXVQQvM4CUJmcJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="250" />
+              <mxPoint x="460" y="250" />
+              <mxPoint x="460" y="186" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-14" value="开启飞行模式&lt;br&gt;或离开基站覆盖范围&lt;br&gt;或关闭流量上网开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="7NydNq4-33c9TfvPZBPD-10">
+          <mxGeometry x="-0.1537" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-10" value="S3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="394" y="240" width="30" height="30" as="geometry" />
+          <mxGeometry x="505" y="260" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-13" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" target="OK4zo2aXVQQvM4CUJmcJ-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -697,27 +796,277 @@
             <mxPoint x="260" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AeZO45FWvY5HhLCvudT6-0" value="wifi连接请求？" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-21">
+        <mxCell id="AeZO45FWvY5HhLCvudT6-0" value="&lt;font color=&quot;#ff0000&quot;&gt;wifi连接请求？&lt;/font&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" target="OK4zo2aXVQQvM4CUJmcJ-21">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="516" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="510" y="516" />
+              <mxPoint x="429" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AeZO45FWvY5HhLCvudT6-6" value="f:=1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="280" y="245" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="AeZO45FWvY5HhLCvudT6-7" value="S4,S5,S6时候都有可能断开与基站连接，或者断开与AP连接&lt;br&gt;S2-S6都可以通过开启飞行模式转换到S1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.46;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="630" y="190" width="130" height="120" as="geometry" />
+          <mxGeometry x="40" y="230" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="5M8bxR-M_Gu3PV9GTdZs-1" value="f:=0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="290" y="175" width="40" height="20" as="geometry" />
+          <mxGeometry x="310" y="150" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8LNR_PQVICM1gOcJIyyy-0" value="对安卓手机上行为的HTA描述" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="326" y="585" width="176" height="20" as="geometry" />
+          <mxGeometry x="364" y="605" width="176" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8LNR_PQVICM1gOcJIyyy-1" value="充电方案：匀速充电" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="40" y="320" width="110" height="20" as="geometry" />
+        <mxCell id="FKMU3LT3OsaEy583QOGj-9" value="Exit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="465" y="585" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.853;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-7" target="OK4zo2aXVQQvM4CUJmcJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="466" />
+              <mxPoint x="160" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-6" value="充电&lt;br&gt;B==D2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="7NydNq4-33c9TfvPZBPD-5">
+          <mxGeometry x="0.0046" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7NydNq4-33c9TfvPZBPD-7" value="充电&lt;br&gt;B==D3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="44" />
+              <mxPoint x="510" />
+              <mxPoint x="474" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONfaNXaO0g5_iqDhY5xi-0" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-7" target="OK4zo2aXVQQvM4CUJmcJ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="330" as="sourcePoint" />
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONfaNXaO0g5_iqDhY5xi-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="ONfaNXaO0g5_iqDhY5xi-1" target="ONfaNXaO0g5_iqDhY5xi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ONfaNXaO0g5_iqDhY5xi-4" value="开启蓝牙" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="ONfaNXaO0g5_iqDhY5xi-3">
+          <mxGeometry x="-0.0545" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ONfaNXaO0g5_iqDhY5xi-1" value="S6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="730" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONfaNXaO0g5_iqDhY5xi-2" value="S7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="730" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ONfaNXaO0g5_iqDhY5xi-6" value="蓝牙连接请求？&lt;br&gt;或蓝牙连接请求！" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="ONfaNXaO0g5_iqDhY5xi-2" target="ONfaNXaO0g5_iqDhY5xi-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="756" y="360" />
+              <mxPoint x="734" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a80Ugjswn08HEyydrT2A-0" value="虽然在加入AP范围、打开wlan开关的过程中随时可能开启飞行模式，但是类比开关机，随时可能开关机但是将开机、关机设置为互斥状态即可，参考HTA论文心脏起搏器" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="15" y="50" width="180" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nsonLqD4Iqm2bkzXiDEN" name="Page-5">
+    <mxGraphModel dx="946" dy="1685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-0" />
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-1" parent="o_2DcQ8bgS25LyWfwSxO-0" />
+        <mxCell id="S_CCIOifG5I2f36Vymj9-1" value="USB连接？" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;entryX=-0.002;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-2" target="o_2DcQ8bgS25LyWfwSxO-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="355" />
+              <mxPoint x="160" y="266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="220" y="132.5" width="450" height="445" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-3" value="关机或B==0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.591;exitY=-0.001;exitDx=0;exitDy=0;curved=1;exitPerimeter=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-2">
+          <mxGeometry x="0.0583" relative="1" as="geometry">
+            <mxPoint x="304.14213562373106" y="125.85786437626894" as="sourcePoint" />
+            <mxPoint x="480" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="486" y="130" />
+              <mxPoint x="460" y="130" />
+              <mxPoint x="460" y="120" />
+              <mxPoint x="445" y="120" />
+              <mxPoint x="445" y="70" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-4" value="开机&lt;br&gt;B==D1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=1;entryX=0.633;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-5" target="o_2DcQ8bgS25LyWfwSxO-2">
+          <mxGeometry x="-0.182" relative="1" as="geometry">
+            <mxPoint x="310" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="66" />
+              <mxPoint x="520" y="90" />
+              <mxPoint x="530" y="90" />
+              <mxPoint x="530" y="132" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="470" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-10" target="o_2DcQ8bgS25LyWfwSxO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-10" value="S1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="340" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-15" target="o_2DcQ8bgS25LyWfwSxO-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="305" />
+              <mxPoint x="270" y="410" />
+              <mxPoint x="380" y="410" />
+              <mxPoint x="380" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-12" value="进入AP覆盖范围&lt;br&gt;且发送连接请求!&lt;br&gt;f:=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="o_2DcQ8bgS25LyWfwSxO-11">
+          <mxGeometry x="-0.3083" relative="1" as="geometry">
+            <mxPoint x="50" y="-163" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-15" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="290" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-23" target="o_2DcQ8bgS25LyWfwSxO-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="395" />
+              <mxPoint x="480" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-17" value="打开热点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="o_2DcQ8bgS25LyWfwSxO-16">
+          <mxGeometry x="-0.25" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-18" value="离开AP覆盖范围&lt;br&gt;或关闭wifi&lt;br&gt;f:=0" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-23" target="o_2DcQ8bgS25LyWfwSxO-36">
+          <mxGeometry x="-0.0883" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="384" />
+              <mxPoint x="540" y="310" />
+              <mxPoint x="530" y="310" />
+              <mxPoint x="530" y="286" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-23" target="o_2DcQ8bgS25LyWfwSxO-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="384" />
+              <mxPoint x="380" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-20" value="离开基站覆盖范围&lt;br&gt;或断开wifi连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="o_2DcQ8bgS25LyWfwSxO-19">
+          <mxGeometry x="-0.0844" y="-17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-23" value="S4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="414" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-24" value="关闭热点&lt;br&gt;且f==1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-30" target="o_2DcQ8bgS25LyWfwSxO-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="418" y="520" />
+              <mxPoint x="330" y="520" />
+              <mxPoint x="330" y="440" />
+              <mxPoint x="429" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-30" target="o_2DcQ8bgS25LyWfwSxO-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="494" />
+              <mxPoint x="590" y="320" />
+              <mxPoint x="580" y="320" />
+              <mxPoint x="580" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-26" value="关闭热点且f==0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="o_2DcQ8bgS25LyWfwSxO-25">
+          <mxGeometry x="-0.0428" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-30" value="S5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="414" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-36" target="o_2DcQ8bgS25LyWfwSxO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-32" value="进入基站覆盖范围&lt;br&gt;且发送连接请求!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="o_2DcQ8bgS25LyWfwSxO-31">
+          <mxGeometry x="-0.1695" y="1" relative="1" as="geometry">
+            <mxPoint x="-138.20999999999998" y="84.92" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-36" value="S3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="470" y="260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-37" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" target="o_2DcQ8bgS25LyWfwSxO-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="120" as="sourcePoint" />
+            <mxPoint x="260" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-39" value="f:=0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="310" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-40" value="笔记本网络行为的HTA描述" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="364" y="605" width="176" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-41" value="Exit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="465" y="585" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.853;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-2" target="o_2DcQ8bgS25LyWfwSxO-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="466" />
+              <mxPoint x="160" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-43" value="充电&lt;br&gt;B==D2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="o_2DcQ8bgS25LyWfwSxO-42">
+          <mxGeometry x="0.0046" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_2DcQ8bgS25LyWfwSxO-44" value="充电&lt;br&gt;B==D3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="o_2DcQ8bgS25LyWfwSxO-1" source="o_2DcQ8bgS25LyWfwSxO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="44" />
+              <mxPoint x="510" />
+              <mxPoint x="474" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_CCIOifG5I2f36Vymj9-0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;笔记本&lt;br&gt;U：联网（不联网也可以是在虚拟网络中联通）&lt;br&gt;  &lt;br&gt;U：操作系统初始化&lt;br&gt;  &lt;br&gt;无线网卡工作模式&lt;br&gt;充电&lt;br&gt;移动行为&lt;br&gt;蓝牙&lt;br&gt;usb连接&lt;br&gt;手动选择AP(选择信号不一定是最强的)&lt;br&gt;&lt;/font&gt;" style="text;html=1;" vertex="1" parent="o_2DcQ8bgS25LyWfwSxO-1">
+          <mxGeometry x="690" y="180" width="250" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
