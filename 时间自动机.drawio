@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-26T08:53:15.024Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="7WI7I_BZ1r7ItefCAP-d" version="12.9.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-26T12:15:36.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kHUnbSPilcV189yUHfHH" version="12.9.2" type="github" pages="4">
   <diagram id="aFrichsZubXLWK6YZcP_" name="Page-1">
     <mxGraphModel dx="946" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -499,7 +499,7 @@
             <mxPoint x="124" y="387" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NJEcU-oL9rQNw698swnb-147" value="&lt;font style=&quot;font-size: 14px&quot;&gt;功能&lt;br&gt;&lt;br&gt;  &lt;br&gt;  移动终端&lt;br&gt;  &lt;br&gt;  &lt;br&gt;  开关机、重启&lt;br&gt;&lt;br&gt;  &lt;br&gt;  联网（不联网也可以是在虚拟网络中联通）&lt;br&gt;  &lt;br&gt;操作系统初始化&lt;br&gt;  &lt;br&gt;无线网卡工作模式&lt;br&gt;充电&lt;br&gt;热点开启（和ap生成原理一样）&lt;br&gt;飞行模式&lt;br&gt;移动行为&lt;br&gt;蓝牙&lt;br&gt;usb连接&lt;br&gt;手动选择AP(选择信号不一定是最强的)&lt;br&gt;流量上网开关&lt;br&gt;  &lt;br&gt; &lt;br&gt; &lt;br&gt;  &lt;br&gt;  路由器&lt;br&gt;  操作系统初始化&lt;br&gt;  &lt;br&gt;端口状态改变&lt;br&gt;  &lt;br&gt;蜂窝基站&lt;br&gt;  &lt;br&gt;基站位置，发射功率&lt;br&gt;  &lt;br&gt;AP[l1]&amp;nbsp;&lt;br&gt;  &lt;br&gt;  修改SSID&lt;br&gt;  认证方式选择（WPA,WEP）&lt;br&gt;密码设置&lt;br&gt;Ssid广播开启[l2]&amp;nbsp;&lt;br&gt;&amp;nbsp;[l1]只用软件就有iw命令&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;" parent="a1j12kgbCN-dSTeJvIJ7-1" vertex="1">
+        <mxCell id="NJEcU-oL9rQNw698swnb-147" value="&lt;font style=&quot;font-size: 14px&quot;&gt;功能&lt;br&gt;&lt;br&gt;  &lt;br&gt;手机&lt;br&gt;  &lt;br&gt;  &lt;br&gt;  开关机、重启&lt;br&gt;&lt;br&gt;  &lt;br&gt;U：联网（不联网也可以是在虚拟网络中联通）&lt;br&gt;  &lt;br&gt;U：操作系统初始化&lt;br&gt;  &lt;br&gt;无线网卡工作模式&lt;br&gt;充电&lt;br&gt;热点开启（和ap生成原理一样）&lt;br&gt;飞行模式&lt;br&gt;移动行为&lt;br&gt;蓝牙&lt;br&gt;usb连接&lt;br&gt;手动选择AP(选择信号不一定是最强的)&lt;br&gt;流量上网开关&lt;br&gt;  &lt;br&gt; &lt;br&gt; &lt;br&gt;  &lt;br&gt;  路由器&lt;br&gt;  操作系统初始化&lt;br&gt;  &lt;br&gt;端口状态改变&lt;br&gt;  &lt;br&gt;蜂窝基站&lt;br&gt;  &lt;br&gt;基站位置，发射功率&lt;br&gt;  &lt;br&gt;AP[l1]&amp;nbsp;&lt;br&gt;  &lt;br&gt;  修改SSID&lt;br&gt;  认证方式选择（WPA,WEP）&lt;br&gt;密码设置&lt;br&gt;Ssid广播开启[l2]&amp;nbsp;&lt;br&gt;&amp;nbsp;[l1]只用软件就有iw命令&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;" parent="a1j12kgbCN-dSTeJvIJ7-1" vertex="1">
           <mxGeometry x="660" y="10" width="250" height="700" as="geometry" />
         </mxCell>
         <mxCell id="Hy9gdf-j_098mDrj9bar-0" value="虽然在加入AP范围、打开wlan开关的过程中随时可能开启飞行模式，但是类比开关机，随时可能开关机但是将开机、关机设置为互斥状态即可，参考HTA论文心脏起搏器" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="a1j12kgbCN-dSTeJvIJ7-1" vertex="1">
@@ -555,10 +555,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Z9b7gAhqbV8PLL1v7m_X-0" value="开关机、重启U：联网（不联网也可以是在虚拟网络中联通）&lt;br&gt;U：操作系统初始化无线网卡工作模式充电热点开启（和ap生成原理一样）&lt;br&gt;飞行模式&lt;br&gt;移动行为&lt;br&gt;蓝牙&lt;br&gt;usb连接&lt;br&gt;手动选择AP(选择信号不一定是最强的)&lt;br&gt;" style="text;html=1;" vertex="1" parent="a1j12kgbCN-dSTeJvIJ7-1">
+          <mxGeometry x="20" y="800" width="1180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="lBTVjrpFtPlSvfXPE-yA" name="Page-5">
+  <diagram id="lBTVjrpFtPlSvfXPE-yA" name="HTA网络">
     <mxGraphModel dx="946" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-0" />
@@ -608,7 +611,7 @@
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-9" target="OK4zo2aXVQQvM4CUJmcJ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-19" value="进入AP覆盖范围&lt;br&gt;且发送连接请求&lt;br&gt;f:=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-15">
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-19" value="进入AP覆盖范围&lt;br&gt;且发送连接请求!&lt;br&gt;f:=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-15">
           <mxGeometry x="-0.3083" relative="1" as="geometry">
             <mxPoint x="72.08" y="-19.09" as="offset" />
           </mxGeometry>
@@ -628,10 +631,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5M8bxR-M_Gu3PV9GTdZs-0" value="离开AP覆盖范围&lt;br&gt;或关闭wifi&lt;br&gt;f:=0" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-14" target="OK4zo2aXVQQvM4CUJmcJ-10">
+          <mxGeometry x="-0.3188" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="384" />
+              <mxPoint x="480" y="320" />
+              <mxPoint x="470" y="320" />
+              <mxPoint x="470" y="266" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-14" value="S4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
           <mxGeometry x="414" y="380" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AeZO45FWvY5HhLCvudT6-1" value="关闭热点&lt;br&gt;f==1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-14">
+        <mxCell id="AeZO45FWvY5HhLCvudT6-1" value="关闭热点&lt;br&gt;且f==1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="380" y="450" />
@@ -659,7 +673,7 @@
         <mxCell id="OK4zo2aXVQQvM4CUJmcJ-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-10" target="OK4zo2aXVQQvM4CUJmcJ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-20" value="进入基站覆盖范围&lt;br&gt;且发送连接请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-16">
+        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-20" value="进入基站覆盖范围&lt;br&gt;且发送连接请求!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="OK4zo2aXVQQvM4CUJmcJ-16">
           <mxGeometry x="-0.1695" y="1" relative="1" as="geometry">
             <mxPoint x="-69.21" y="24.92" as="offset" />
           </mxGeometry>
@@ -683,13 +697,6 @@
             <mxPoint x="260" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OK4zo2aXVQQvM4CUJmcJ-25" value="USB文件传输？" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-7" target="OK4zo2aXVQQvM4CUJmcJ-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="160" y="400" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="AeZO45FWvY5HhLCvudT6-0" value="wifi连接请求？" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="OK4zo2aXVQQvM4CUJmcJ-1" source="OK4zo2aXVQQvM4CUJmcJ-21" target="OK4zo2aXVQQvM4CUJmcJ-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -698,13 +705,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AeZO45FWvY5HhLCvudT6-6" value="f:=1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="250" y="295" width="40" height="20" as="geometry" />
+          <mxGeometry x="280" y="245" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AeZO45FWvY5HhLCvudT6-7" value="S4,S5,S6时候都有可能断开与基站连接，或者断开与AP连接&lt;br&gt;S2-S6都可以通过开启飞行模式转换到S1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.46;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
           <mxGeometry x="630" y="190" width="130" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SjhsxvjQxZm3V8fTRlnw-0" value="考虑用层次来简化，参考caj博士论文中层次自动机到顺序自动机的转化" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
-          <mxGeometry x="630" y="320" width="120" height="120" as="geometry" />
+        <mxCell id="5M8bxR-M_Gu3PV9GTdZs-1" value="f:=0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="290" y="175" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8LNR_PQVICM1gOcJIyyy-0" value="对安卓手机上行为的HTA描述" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="326" y="585" width="176" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8LNR_PQVICM1gOcJIyyy-1" value="充电方案：匀速充电" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OK4zo2aXVQQvM4CUJmcJ-1">
+          <mxGeometry x="40" y="320" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
