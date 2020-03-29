@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T06:49:38.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="HixtJMgxhyLPbE1DJA-y" version="12.9.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-03-29T15:33:14.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="BtnypoUdqCaSAAZREEVi" version="12.9.3" type="github" pages="5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="拓扑与链路控制技术">
     <mxGraphModel dx="946" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -145,24 +145,6 @@
         <mxCell id="YgkVIk6N9J1UX0ECOyVe-1" value="获取虚拟机访问链接" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="362.38" y="913" width="145" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FOpDInlarjYtEiqSZFSN-1" value="在节点执行行为的时刻判断是否控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="769" y="753" width="234" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="FOpDInlarjYtEiqSZFSN-3" value="airmode：&lt;br&gt;开：删除所有网卡，关闭热点&lt;br&gt;关：数据流量为开、RSRP大于最小值则添加网卡&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="737" y="921" width="315" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="FOpDInlarjYtEiqSZFSN-4" value="1、手机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="737" y="814" width="60" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="eyztiRn-aRr8YekvGuWy-1" value="数据流量开关&lt;br&gt;开：飞行模式开启，则无法修改库中数据流量开关状态&lt;br&gt;飞行模式关闭：当RSRP大于最小值即可&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="737" y="997" width="346" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="eyztiRn-aRr8YekvGuWy-2" value="外层判断：是否开机（有可能因为电量不足关机）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="735" y="789" width="318" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="eyztiRn-aRr8YekvGuWy-3" value="移动行为：&lt;br&gt;每隔2s更新所有移动节点位置&lt;br&gt;wlan:拓扑变化和链路参数由于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="805" y="838" width="197" height="55" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -308,126 +290,246 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BHsUnkRRkDvubZXYA5oQ" name="位置到链路状态转换">
+    
     <mxGraphModel dx="946" dy="516" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="GKkQAI3s9Y34zm4RplyS-0" />
+        
         <mxCell id="GKkQAI3s9Y34zm4RplyS-1" parent="GKkQAI3s9Y34zm4RplyS-0" />
+        
         <mxCell id="GKkQAI3s9Y34zm4RplyS-2" value="生成拓扑与&lt;br&gt;链路参数文件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" parent="GKkQAI3s9Y34zm4RplyS-1" vertex="1">
+          
           <mxGeometry x="630" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="67PsZ09Hbw13mkb_fZ4C-0" value="解释MINDL文件得到仿真参数" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" parent="GKkQAI3s9Y34zm4RplyS-1" vertex="1">
+          
           <mxGeometry x="134" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="67PsZ09Hbw13mkb_fZ4C-1" value="输入仿真参数到Mininet" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" parent="GKkQAI3s9Y34zm4RplyS-1" vertex="1">
+          
           <mxGeometry x="300" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="67PsZ09Hbw13mkb_fZ4C-4" value="运行仿真实验测试连接性" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" parent="GKkQAI3s9Y34zm4RplyS-1" vertex="1">
+          
           <mxGeometry x="465" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="67PsZ09Hbw13mkb_fZ4C-6" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeWidth=1;fontSize=15;" parent="GKkQAI3s9Y34zm4RplyS-1" edge="1">
+          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            
             <mxPoint x="260" y="229" as="sourcePoint" />
+            
             <mxPoint x="297" y="229" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="67PsZ09Hbw13mkb_fZ4C-10" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeWidth=1;fontSize=15;" parent="GKkQAI3s9Y34zm4RplyS-1" edge="1">
+          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            
             <mxPoint x="426" y="229.5" as="sourcePoint" />
+            
             <mxPoint x="463" y="229.5" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="67PsZ09Hbw13mkb_fZ4C-11" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeWidth=1;fontSize=15;" parent="GKkQAI3s9Y34zm4RplyS-1" edge="1">
+          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            
             <mxPoint x="590" y="229.5" as="sourcePoint" />
+            
             <mxPoint x="627" y="229.5" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="aE10ST6rSshi5V1inHw0-2" value="&lt;span style=&quot;font-size: 15px ; white-space: normal&quot;&gt;&amp;nbsp; &amp;nbsp; 移动行为、&lt;/span&gt;&lt;br style=&quot;font-size: 15px ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 15px ; white-space: normal&quot;&gt;拓扑创建&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" parent="GKkQAI3s9Y34zm4RplyS-1" vertex="1">
+          
           <mxGeometry x="143" y="120" width="119" height="72" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="aE10ST6rSshi5V1inHw0-3" value="&lt;span style=&quot;font-size: 15px&quot;&gt;节点连接性、&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;链路状态&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" parent="GKkQAI3s9Y34zm4RplyS-1" vertex="1">
+          
           <mxGeometry x="641" y="120" width="119" height="72" as="geometry" />
+          
         </mxCell>
+        
       </root>
+      
     </mxGraphModel>
+    
   </diagram>
   <diagram id="mybCoziPztsJB4F4yMcH" name="TC控制流程">
+    
     <mxGraphModel dx="946" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-0" />
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-1" parent="ytn2ATOzjRRS6rHDC3zz-0" />
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;主队列配置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="ytn2ATOzjRRS6rHDC3zz-1" vertex="1">
+          
           <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-3" value="&lt;font style=&quot;font-size: 15px&quot;&gt;主类别配置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="ytn2ATOzjRRS6rHDC3zz-1" vertex="1">
+          
           <mxGeometry x="370" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;子队列和子类别建立&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="ytn2ATOzjRRS6rHDC3zz-1" vertex="1">
+          
           <mxGeometry x="540" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;为所有类别建立过滤器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="ytn2ATOzjRRS6rHDC3zz-1" vertex="1">
+          
           <mxGeometry x="707" y="200" width="120" height="60" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#00CC00;" parent="ytn2ATOzjRRS6rHDC3zz-1" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="490" y="229.5" as="sourcePoint" />
+            
             <mxPoint x="540" y="229.5" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#00CC00;" parent="ytn2ATOzjRRS6rHDC3zz-1" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="660" y="229.5" as="sourcePoint" />
+            
             <mxPoint x="710" y="229.5" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="ytn2ATOzjRRS6rHDC3zz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;strokeColor=#00CC00;" parent="ytn2ATOzjRRS6rHDC3zz-1" edge="1">
+          
           <mxGeometry relative="1" as="geometry">
+            
             <mxPoint x="320" y="229.5" as="sourcePoint" />
+            
             <mxPoint x="370" y="229.5" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
       </root>
+      
     </mxGraphModel>
+    
   </diagram>
   <diagram id="q1D5OZjihmtheUrfQY6K" name="SDN控制器控制流程">
+    
     <mxGraphModel dx="946" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-0" />
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-1" parent="DWvIOK_BHQEhsyV5QVfZ-0" />
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-2" value="&lt;div style=&quot;font-size: 22px&quot;&gt;&lt;span&gt;OVS&lt;/span&gt;&lt;span&gt;流表&lt;/span&gt;&lt;span&gt;或&lt;/span&gt;&lt;span&gt;Neutron API&lt;/span&gt;&lt;span&gt;实现移动终端所在链路通断、网络切换&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DWvIOK_BHQEhsyV5QVfZ-1">
+          
           <mxGeometry x="223" y="217" width="286" height="76" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-3" value="&lt;div style=&quot;font-size: 22px&quot;&gt;初始参数（commands）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DWvIOK_BHQEhsyV5QVfZ-1">
+          
           <mxGeometry x="226" y="103" width="280" height="70" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-4" value="&lt;div style=&quot;font-size: 22px&quot;&gt;&lt;span&gt;Linux TC&lt;/span&gt;&lt;span&gt;和&lt;/span&gt;&lt;span&gt;NS3&lt;/span&gt;&lt;span&gt;传播模型实现终端移动过程中时延、带宽控制和丢包率的估算&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DWvIOK_BHQEhsyV5QVfZ-1">
+          
           <mxGeometry x="224" y="349" width="285" height="116" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-5" value="&lt;font style=&quot;font-size: 22px&quot;&gt;导出仿真节点距离、位置、网络性能参数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DWvIOK_BHQEhsyV5QVfZ-1">
+          
           <mxGeometry x="223" y="504.5" width="289" height="86" as="geometry" />
+          
         </mxCell>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DWvIOK_BHQEhsyV5QVfZ-1" source="DWvIOK_BHQEhsyV5QVfZ-3" target="DWvIOK_BHQEhsyV5QVfZ-2">
+          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            
             <mxPoint x="340" y="270" as="sourcePoint" />
+            
             <mxPoint x="370" y="250" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DWvIOK_BHQEhsyV5QVfZ-1" source="DWvIOK_BHQEhsyV5QVfZ-2" target="DWvIOK_BHQEhsyV5QVfZ-4">
+          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            
             <mxPoint x="370" y="320" as="sourcePoint" />
+            
             <mxPoint x="370" y="360" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="DWvIOK_BHQEhsyV5QVfZ-1" source="DWvIOK_BHQEhsyV5QVfZ-4">
+          
           <mxGeometry width="50" height="50" relative="1" as="geometry">
+            
             <mxPoint x="371" y="478" as="sourcePoint" />
+            
             <mxPoint x="367" y="509" as="targetPoint" />
+            
           </mxGeometry>
+          
         </mxCell>
+        
         <mxCell id="DWvIOK_BHQEhsyV5QVfZ-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;图2 SDN控制器设计图&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="DWvIOK_BHQEhsyV5QVfZ-1">
+          
           <mxGeometry x="266" y="623" width="209" height="21" as="geometry" />
+          
         </mxCell>
+        
       </root>
+      
     </mxGraphModel>
+    
   </diagram>
 </mxfile>
