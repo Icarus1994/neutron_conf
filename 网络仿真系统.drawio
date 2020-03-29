@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T08:47:14.410Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="faiQHsLjv_n7uO8ivcpz" version="12.9.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-03-29T08:48:03.472Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="_lTxf2FlePMsyXEBsNqn" version="12.9.3" type="github" pages="2">
   <diagram id="0fftqB5SDdim5vXBRDft" name="原型系统架构">
     <mxGraphModel dx="946" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,47 +219,6 @@
             <mxPoint x="454" y="400" as="sourcePoint" />
             <mxPoint x="454" y="440" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="9diQBgH1hAi2UFY4oU7q" name="功能模块交互关系">
-    <mxGraphModel dx="946" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="VT4icdKESfeV44I3_4wx-0" />
-        <mxCell id="VT4icdKESfeV44I3_4wx-1" parent="VT4icdKESfeV44I3_4wx-0" />
-        <mxCell id="VT4icdKESfeV44I3_4wx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VT4icdKESfeV44I3_4wx-1" source="VT4icdKESfeV44I3_4wx-4" target="VT4icdKESfeV44I3_4wx-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="VT4icdKESfeV44I3_4wx-1" source="VT4icdKESfeV44I3_4wx-4" target="VT4icdKESfeV44I3_4wx-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-4" value="node" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VT4icdKESfeV44I3_4wx-1">
-          <mxGeometry x="110" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-5" value="interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VT4icdKESfeV44I3_4wx-1">
-          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VT4icdKESfeV44I3_4wx-1" source="VT4icdKESfeV44I3_4wx-8" target="VT4icdKESfeV44I3_4wx-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="VT4icdKESfeV44I3_4wx-1" source="VT4icdKESfeV44I3_4wx-8" target="VT4icdKESfeV44I3_4wx-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-8" value="controller&lt;br&gt;只负责调度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VT4icdKESfeV44I3_4wx-1">
-          <mxGeometry x="330" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-9" value="driver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VT4icdKESfeV44I3_4wx-1">
-          <mxGeometry x="570" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="VT4icdKESfeV44I3_4wx-1" source="VT4icdKESfeV44I3_4wx-11" target="VT4icdKESfeV44I3_4wx-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-11" value="connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VT4icdKESfeV44I3_4wx-1">
-          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VT4icdKESfeV44I3_4wx-12" value="timer&lt;br&gt;（定时器）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VT4icdKESfeV44I3_4wx-1">
-          <mxGeometry x="330" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
