@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T16:49:21.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="1RY4HQ8Ytd7H_V2kwytO" version="12.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-30T16:53:13.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="lnt_jjzSAA1-G9oeWgBA" version="12.9.5" type="github">
   <diagram id="KmwrGCwzeyCqLZFn_2tw" name="逻辑网络与虚拟网络">
     <mxGraphModel dx="946" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,12 +60,17 @@
         <mxCell id="3VEoIM8ZX6iH1CT_TiHG-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;无线接入点&lt;/font&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png" vertex="1" parent="1">
           <mxGeometry x="320" y="280" width="70.5" height="61" as="geometry" />
         </mxCell>
+        <mxCell id="3VEoIM8ZX6iH1CT_TiHG-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="1" target="3VEoIM8ZX6iH1CT_TiHG-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3VEoIM8ZX6iH1CT_TiHG-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;路由器&lt;/font&gt;" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top" vertex="1" parent="1">
           <mxGeometry x="460" y="200" width="63" height="38" as="geometry" />
         </mxCell>
         <mxCell id="3VEoIM8ZX6iH1CT_TiHG-3" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="101" y="400" as="sourcePoint" />
+            <mxPoint x="50" y="400" as="sourcePoint" />
             <mxPoint x="764" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -74,6 +79,15 @@
         </mxCell>
         <mxCell id="3VEoIM8ZX6iH1CT_TiHG-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;虚拟网络&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="446" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3VEoIM8ZX6iH1CT_TiHG-9" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="90" height="58.21" as="geometry" />
+        </mxCell>
+        <mxCell id="3VEoIM8ZX6iH1CT_TiHG-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="446" width="120" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="3VEoIM8ZX6iH1CT_TiHG-17" value="s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="478" width="54" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
