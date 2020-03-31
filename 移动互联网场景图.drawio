@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T18:20:27.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="2cGEi-h-qwyCcyb5S-4A" version="12.9.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-03-31T18:22:08.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kU9RDyb53GEhvvCsEJ6U" version="12.9.5" type="github" pages="2">
   <diagram id="KmwrGCwzeyCqLZFn_2tw" name="逻辑网络与虚拟网络">
     <mxGraphModel dx="946" dy="467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,7 +230,16 @@
       <root>
         <mxCell id="-bdmjLES65xdY4YpjaoX-0" />
         <mxCell id="-bdmjLES65xdY4YpjaoX-1" parent="-bdmjLES65xdY4YpjaoX-0" />
+        <mxCell id="-bdmjLES65xdY4YpjaoX-38" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=none;fontSize=15;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
+          <mxGeometry x="27" y="189" width="348" height="162" as="geometry" />
+        </mxCell>
         <mxCell id="-bdmjLES65xdY4YpjaoX-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;strokeWidth=2;fillColor=#FFFF00;fontSize=15;" edge="1" parent="-bdmjLES65xdY4YpjaoX-1" source="-bdmjLES65xdY4YpjaoX-2" target="-bdmjLES65xdY4YpjaoX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-bdmjLES65xdY4YpjaoX-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;strokeWidth=2;fillColor=#FFFF00;fontSize=15;" edge="1" parent="-bdmjLES65xdY4YpjaoX-1" source="-bdmjLES65xdY4YpjaoX-2" target="-bdmjLES65xdY4YpjaoX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-bdmjLES65xdY4YpjaoX-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;strokeWidth=2;fillColor=#FFFF00;fontSize=15;" edge="1" parent="-bdmjLES65xdY4YpjaoX-1" source="-bdmjLES65xdY4YpjaoX-2" target="-bdmjLES65xdY4YpjaoX-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bdmjLES65xdY4YpjaoX-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;网络行为&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
@@ -252,7 +261,7 @@
           <mxGeometry x="91" y="198" width="30" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-bdmjLES65xdY4YpjaoX-11" value="&lt;font style=&quot;font-size: 15px&quot;&gt;开关热点&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=#000000;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
-          <mxGeometry x="38" y="200" width="30" height="140" as="geometry" />
+          <mxGeometry x="43" y="198" width="30" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-bdmjLES65xdY4YpjaoX-12" value="&lt;span style=&quot;font-size: 15px&quot;&gt;切换AP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
           <mxGeometry x="240" y="200" width="30" height="140" as="geometry" />
@@ -275,7 +284,7 @@
         <mxCell id="-bdmjLES65xdY4YpjaoX-25" value="笔记本行为" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
           <mxGeometry x="284.43" y="114" width="79.25" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-bdmjLES65xdY4YpjaoX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;fillColor=#FFFF00;fontSize=15;" edge="1" parent="-bdmjLES65xdY4YpjaoX-1" source="-bdmjLES65xdY4YpjaoX-27" target="-bdmjLES65xdY4YpjaoX-17">
+        <mxCell id="-bdmjLES65xdY4YpjaoX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#000000;fillColor=#FFFF00;fontSize=15;strokeWidth=2;" edge="1" parent="-bdmjLES65xdY4YpjaoX-1" source="-bdmjLES65xdY4YpjaoX-27" target="-bdmjLES65xdY4YpjaoX-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bdmjLES65xdY4YpjaoX-27" value="路由器行为" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
@@ -286,6 +295,9 @@
         </mxCell>
         <mxCell id="-bdmjLES65xdY4YpjaoX-29" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=2;fillColor=#7AF200;fontSize=15;rotation=90;size=0.5144287396937565;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
           <mxGeometry x="307.08" y="4.18" width="33.96" height="344.64" as="geometry" />
+        </mxCell>
+        <mxCell id="-bdmjLES65xdY4YpjaoX-41" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=none;fontSize=15;" vertex="1" parent="-bdmjLES65xdY4YpjaoX-1">
+          <mxGeometry x="473" y="189" width="99" height="162" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
