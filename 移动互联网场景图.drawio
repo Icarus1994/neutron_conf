@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-01T07:06:49.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="yOXpIouyMOywAs9rl7G0" version="12.9.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-04-01T07:07:27.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="NKP09d2O3pZOgHZKJyn_" version="12.9.5" type="github" pages="2">
   <diagram id="KmwrGCwzeyCqLZFn_2tw" name="逻辑网络与虚拟网络">
     <mxGraphModel dx="946" dy="467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -251,6 +251,15 @@
             <mxPoint x="480" y="513" as="sourcePoint" />
             <mxPoint x="479.952" y="555.99" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FDbQkvNLc8ASf3mamrCP-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;计算节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="173.15" y="441" width="66" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="FDbQkvNLc8ASf3mamrCP-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;计算节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="444" width="66" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="FDbQkvNLc8ASf3mamrCP-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;控制节点&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="527.15" y="444" width="66" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
