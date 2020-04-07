@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-07T07:07:50.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="PnUZdDJ6L1XICiO5_yuR" version="12.9.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-04-07T12:17:59.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="OHM1Gx3LSQG-iXPukZiR" version="12.9.7" type="github" pages="5">
   <diagram id="0fftqB5SDdim5vXBRDft" name="原型系统架构">
     <mxGraphModel dx="1773" dy="467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -656,7 +656,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NpMfFQGrhUPoqrUt-9dT" name="renew2_原型系统架构">
-    <mxGraphModel dx="1773" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2088" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oieZwGZzTekwvsBR7hHI-0" />
         <mxCell id="oieZwGZzTekwvsBR7hHI-1" parent="oieZwGZzTekwvsBR7hHI-0" />
