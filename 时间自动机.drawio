@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-21T15:26:11.331Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="HdItjvz5L52ONnpHyGHG" version="13.1.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-05-21T16:07:10.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="azwx2vbW-4FNRVMsxzTn" version="13.1.3" type="github" pages="9">
   <diagram id="q1r4gzHEoarqYhtVm0dt" name="方法一_时间自动机网络">
     <mxGraphModel dx="1754" dy="1636" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2801,7 +2801,7 @@
     </mxGraphModel>
     
   </diagram>
-  <diagram id="YMGzOLo5ws2YXztNdpVJ" name="方法三：并行自动机">
+  <diagram id="YMGzOLo5ws2YXztNdpVJ" name="方法三：并行自动机_手机行为">
     <mxGraphModel dx="927" dy="467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="2nuh1V4NWaDvCwbWUG5I-0" />
@@ -2928,7 +2928,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1fIRgb7QfDlRI88UxajH-71" value="S9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="2nuh1V4NWaDvCwbWUG5I-1" vertex="1">
+        <mxCell id="1fIRgb7QfDlRI88UxajH-71" value="S9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="2nuh1V4NWaDvCwbWUG5I-1" vertex="1">
           <mxGeometry x="434" y="628" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Ve94PaHMMbVn6Q2dUCw2-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="2nuh1V4NWaDvCwbWUG5I-1" source="1fIRgb7QfDlRI88UxajH-73">
@@ -2950,7 +2950,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1fIRgb7QfDlRI88UxajH-73" value="S10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="2nuh1V4NWaDvCwbWUG5I-1" vertex="1">
+        <mxCell id="1fIRgb7QfDlRI88UxajH-73" value="S10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="2nuh1V4NWaDvCwbWUG5I-1" vertex="1">
           <mxGeometry x="647" y="574" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="3Orrz-s82yl56gZMSsnd-17" value="离开AP覆盖范围" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="2nuh1V4NWaDvCwbWUG5I-1" source="Ve94PaHMMbVn6Q2dUCw2-0">
@@ -2970,7 +2970,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ve94PaHMMbVn6Q2dUCw2-0" value="S5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="2nuh1V4NWaDvCwbWUG5I-1">
+        <mxCell id="Ve94PaHMMbVn6Q2dUCw2-0" value="S5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="2nuh1V4NWaDvCwbWUG5I-1">
           <mxGeometry x="437" y="410" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="Ve94PaHMMbVn6Q2dUCw2-10" value="打开蓝牙" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2nuh1V4NWaDvCwbWUG5I-1" source="Ve94PaHMMbVn6Q2dUCw2-11" target="Ve94PaHMMbVn6Q2dUCw2-16">
@@ -3031,7 +3031,7 @@
             <mxPoint x="8.430000000000007" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ve94PaHMMbVn6Q2dUCw2-22" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="2nuh1V4NWaDvCwbWUG5I-1">
+        <mxCell id="Ve94PaHMMbVn6Q2dUCw2-22" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="2nuh1V4NWaDvCwbWUG5I-1">
           <mxGeometry x="401" y="291" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="3Orrz-s82yl56gZMSsnd-7" value="" style="endArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="2nuh1V4NWaDvCwbWUG5I-1" target="1fIRgb7QfDlRI88UxajH-64">
@@ -3169,7 +3169,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="h1WAG3ISRoBB2j6-Z66C-28" value="S5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="OUeGRwRg42ClqHERO5Bi-1">
+        <mxCell id="h1WAG3ISRoBB2j6-Z66C-28" value="S5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OUeGRwRg42ClqHERO5Bi-1">
           <mxGeometry x="465" y="643" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="h1WAG3ISRoBB2j6-Z66C-29" value="打开蓝牙" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OUeGRwRg42ClqHERO5Bi-1" source="h1WAG3ISRoBB2j6-Z66C-30" target="h1WAG3ISRoBB2j6-Z66C-34">
@@ -3219,10 +3219,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="h1WAG3ISRoBB2j6-Z66C-40" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="OUeGRwRg42ClqHERO5Bi-1">
+        <mxCell id="h1WAG3ISRoBB2j6-Z66C-40" value="S2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OUeGRwRg42ClqHERO5Bi-1">
           <mxGeometry x="442.25" y="547" width="36" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="h1WAG3ISRoBB2j6-Z66C-43" value="选择无线网卡master模式" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="OUeGRwRg42ClqHERO5Bi-1" source="h1WAG3ISRoBB2j6-Z66C-41">
+        <mxCell id="h1WAG3ISRoBB2j6-Z66C-43" value="选择无线网卡被管理模式" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="OUeGRwRg42ClqHERO5Bi-1" source="h1WAG3ISRoBB2j6-Z66C-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="501" y="648" as="targetPoint" />
             <Array as="points">
@@ -3239,7 +3239,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="h1WAG3ISRoBB2j6-Z66C-41" value="S6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="OUeGRwRg42ClqHERO5Bi-1">
+        <mxCell id="h1WAG3ISRoBB2j6-Z66C-41" value="S6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="OUeGRwRg42ClqHERO5Bi-1">
           <mxGeometry x="652" y="643" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="h1WAG3ISRoBB2j6-Z66C-47" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="OUeGRwRg42ClqHERO5Bi-1" source="h1WAG3ISRoBB2j6-Z66C-44" target="h1WAG3ISRoBB2j6-Z66C-46">
