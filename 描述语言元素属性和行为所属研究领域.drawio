@@ -1,6 +1,6 @@
-<mxfile modified="2020-05-26T04:55:39.870Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="OXzPDfkShgB4elf3HgEP" version="13.1.3" type="github">
+<mxfile modified="2020-05-31T03:40:16.374Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="0ZIrRjApQ1MWA6UjMEQm" version="13.1.6" type="github">
   <diagram id="JTEC7zDQZaKKNVADHG2T" name="Page-1">
-    <mxGraphModel dx="927" dy="467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,32 +21,6 @@
         </mxCell>
         <mxCell id="eBM_6JwckMkyRj_pSC0B-2" value="终端监控指标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="130" y="238" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-3" target="eBM_6JwckMkyRj_pSC0B-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-3" value="应用下载和&lt;br&gt;后台应用更新" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="130" y="490" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="eBM_6JwckMkyRj_pSC0B-4" target="eBM_6JwckMkyRj_pSC0B-20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-4" value="操作系统非法刷新、路由器固件升级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="130" y="540" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-5" target="eBM_6JwckMkyRj_pSC0B-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-5" target="eBM_6JwckMkyRj_pSC0B-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lV_MVo3YDsL5NMVc6ks3-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-5" target="eBM_6JwckMkyRj_pSC0B-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-5" value="用户位置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="130" y="320" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eBM_6JwckMkyRj_pSC0B-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-6" target="eBM_6JwckMkyRj_pSC0B-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -119,17 +93,11 @@
         <mxCell id="eBM_6JwckMkyRj_pSC0B-19" value="用户体验质量（QoE）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="390" y="300" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-49" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-20" target="eBM_6JwckMkyRj_pSC0B-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eBM_6JwckMkyRj_pSC0B-20" value="终端安全" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="390" y="500" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="eBM_6JwckMkyRj_pSC0B-21" value="移动终端" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="650" y="380" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eBM_6JwckMkyRj_pSC0B-22" value="隐私与安全保护" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="645" y="520" width="120" height="30" as="geometry" />
+          <mxGeometry x="645" y="504" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eBM_6JwckMkyRj_pSC0B-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="1" source="eBM_6JwckMkyRj_pSC0B-26" target="eBM_6JwckMkyRj_pSC0B-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -186,19 +154,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lV_MVo3YDsL5NMVc6ks3-20" value="异常流量控制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="390" y="550" width="120" height="30" as="geometry" />
+          <mxGeometry x="390" y="510" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lV_MVo3YDsL5NMVc6ks3-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" parent="1" source="lV_MVo3YDsL5NMVc6ks3-22" target="lV_MVo3YDsL5NMVc6ks3-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lV_MVo3YDsL5NMVc6ks3-22" value="网卡模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="130" y="580" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lV_MVo3YDsL5NMVc6ks3-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="1" source="lV_MVo3YDsL5NMVc6ks3-23" target="lV_MVo3YDsL5NMVc6ks3-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lV_MVo3YDsL5NMVc6ks3-23" value="抓包分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="130" y="620" width="120" height="30" as="geometry" />
+          <mxGeometry x="130" y="510" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
