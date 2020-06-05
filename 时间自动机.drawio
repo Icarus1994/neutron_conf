@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-05T11:18:04.015Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="Q984RpmE-wlFhYQLhCHM" version="13.1.14" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-06-05T14:35:41.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="lcQJlwqrz69taJTe8nNr" version="13.1.14" type="github" pages="8">
   <diagram id="0A_7hAwQVndIGnxHlrsZ" name="方法四：有限状态机">
     <mxGraphModel dx="946" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -444,7 +444,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ER-IPnTf9zsqT09yTTKG-69" value="对于智能手机，执行关机行为，两个自动机都会关机，关机行为是同步的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="tf3Xqf69AYW7_mrT54aJ-1" vertex="1">
-          <mxGeometry x="507" y="292" width="394" height="18" as="geometry" />
+          <mxGeometry x="328" y="191" width="394" height="18" as="geometry" />
         </mxCell>
         <mxCell id="ER-IPnTf9zsqT09yTTKG-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="tf3Xqf69AYW7_mrT54aJ-1" source="ER-IPnTf9zsqT09yTTKG-70" target="ER-IPnTf9zsqT09yTTKG-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -517,6 +517,9 @@
         </mxCell>
         <mxCell id="RLHILjLbB_zV5jXV1d0d-0" value="同步动作的含义是：对外界的一个输入，在多个自动机中同时发生转移" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="tf3Xqf69AYW7_mrT54aJ-1" vertex="1">
           <mxGeometry x="947" y="882" width="382" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="aUmTBXqMwHzTTTThWF09-0" value="为了保证一定处于某个状态，单独设置一个自动机？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=11;" vertex="1" parent="tf3Xqf69AYW7_mrT54aJ-1">
+          <mxGeometry x="562" y="540" width="286" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
