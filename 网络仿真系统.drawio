@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-12T11:40:50.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="zaJUJS80sAzq-L4s0snP" version="13.4.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-07-12T13:23:21.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="qBvX9yC4mWAb67JOfKFj" version="13.4.2" type="github" pages="6">
   <diagram id="ip5I0WDaEDsH4B86aiK6" name="renew4022_原型系统架构">
-    <mxGraphModel dx="946" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="82z8PU8OqBz9VBNM9_fA-0" />
         <mxCell id="82z8PU8OqBz9VBNM9_fA-1" parent="82z8PU8OqBz9VBNM9_fA-0" />
@@ -150,7 +150,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="t-zWZH5KaqDxgutvRse3" name="0712_原型系统架构">
-    <mxGraphModel dx="946" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="50PT-6-m4BOv1Iu-qWXt-0" />
         <mxCell id="50PT-6-m4BOv1Iu-qWXt-1" parent="50PT-6-m4BOv1Iu-qWXt-0" />
@@ -289,9 +289,6 @@
         </mxCell>
         <mxCell id="dTV6w0sjY52dtp92ebeQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="50PT-6-m4BOv1Iu-qWXt-1" source="Cu0Le1hMoa3ETHAa1tY2-15" target="dTV6w0sjY52dtp92ebeQ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e95ygyTLroe_w1Ih_wpA-0" value="箭头指向的模块应该是调用者&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="50PT-6-m4BOv1Iu-qWXt-1">
-          <mxGeometry x="30" y="880" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gYcuNunwa8bfkv6yt-O7-0" value="&lt;span style=&quot;font-size: 15px&quot;&gt;联动管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontColor=#333333;" vertex="1" parent="50PT-6-m4BOv1Iu-qWXt-1">
           <mxGeometry x="554" y="544.75" width="80" height="30" as="geometry" />
