@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-15T07:34:01.285Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="GkMropaa_-YiPiRrJvoZ" version="13.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-07-16T05:51:25.006Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="7gbpiCThIqmEVF2Euhta" version="13.4.2" type="github" pages="12">
   <diagram id="co10jvuRVFvH3Up8rUBE" name="链路性能仿真流程图">
     <mxGraphModel dx="946" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1075,7 +1075,7 @@
           <mxGeometry x="200" y="545" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-15" value="节点状态文件" style="whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="77" y="416" width="80" height="40" as="geometry" />
+          <mxGeometry x="78" y="416" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-18" value="OpenStack API" style="whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
           <mxGeometry x="482.75" y="416" width="85" height="40" as="geometry" />
@@ -1097,7 +1097,7 @@
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-24" value="蓝牙配对算法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
           <mxGeometry x="230" y="196" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vBq48LPnv6tGaqqqdMzJ-25" value="基于节点运动模型的终端行为映射方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
+        <mxCell id="vBq48LPnv6tGaqqqdMzJ-25" value="基于Mininet-Wifi的终端行为映射模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
           <mxGeometry x="230" y="258" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-26" value="子网及网卡增删" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
@@ -1123,9 +1123,6 @@
             <mxPoint x="710" y="304" as="sourcePoint" />
             <mxPoint x="770" y="304" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vBq48LPnv6tGaqqqdMzJ-38" value="动态网络仿真机制(研究思路)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="330" y="110" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-39" value="网卡队列控制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
           <mxGeometry x="467.25" y="302" width="120" height="30" as="geometry" />
@@ -1154,13 +1151,13 @@
           <mxGeometry x="468.5" y="344" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-55" value="蓝牙配对仿真技术" style="whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="799" y="244" width="120" height="36" as="geometry" />
+          <mxGeometry x="782" y="370" width="120" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="vBq48LPnv6tGaqqqdMzJ-56" value="基于节点运动模型的终端行为仿真技术" style="whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="801" y="322" width="120" height="36" as="geometry" />
+        <mxCell id="vBq48LPnv6tGaqqqdMzJ-56" value="动态拓扑及链路性能仿真技术" style="whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
+          <mxGeometry x="786" y="224" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-57" value="电源管理仿真技术" style="whiteSpace=wrap;html=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="799" y="388" width="120" height="36" as="geometry" />
+          <mxGeometry x="782" y="294" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="vBq48LPnv6tGaqqqdMzJ-58" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1168,14 +1165,128 @@
             <mxPoint x="388" y="516" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vBq48LPnv6tGaqqqdMzJ-59" value="算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="940" y="254" width="34" height="18" as="geometry" />
+        <mxCell id="vBq48LPnv6tGaqqqdMzJ-62" value="SDN的思想，在本节中提到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
+          <mxGeometry x="452" y="102" width="155" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="vBq48LPnv6tGaqqqdMzJ-60" value="4G网络子网切换算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="931" y="331" width="122" height="18" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M68i091fp2kKkyqKcS-0" name="动态拓扑及链路性能仿真流程图">
+    <mxGraphModel dx="946" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="yylhXVAfNhrHOLTcQKic-0" />
+        <mxCell id="yylhXVAfNhrHOLTcQKic-1" parent="yylhXVAfNhrHOLTcQKic-0" />
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;dashed=1;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="533" y="385" width="274" height="323" as="geometry" />
         </mxCell>
-        <mxCell id="vBq48LPnv6tGaqqqdMzJ-61" value="电源管理流程图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="vBq48LPnv6tGaqqqdMzJ-1">
-          <mxGeometry x="920" y="395" width="94" height="18" as="geometry" />
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;dashed=1;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="233" y="450" width="274" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.542;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-28" target="q9lYDYSO_4LSXGfJuMby-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395.3800000000001" y="393" as="sourcePoint" />
+            <mxPoint x="395.3800000000001" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-3" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="360" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-4" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="590" y="744" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-25" target="q9lYDYSO_4LSXGfJuMby-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395.3800000000001" y="458" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-7" value="输入仿真参数到Mininet-Wifi" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="298.19" y="486" width="192.81" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-9" target="q9lYDYSO_4LSXGfJuMby-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-9" value="运行实验并导出相关文件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="296" y="563" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-10" value="解析链路性能参数文件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="296" y="633" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-10" target="q9lYDYSO_4LSXGfJuMby-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="394" y="697" />
+              <mxPoint x="524" y="697" />
+              <mxPoint x="524" y="372" />
+              <mxPoint x="640" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-13" target="q9lYDYSO_4LSXGfJuMby-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-13" value="主队列配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="542.5" y="458" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-15" target="q9lYDYSO_4LSXGfJuMby-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-15" value="主类别配置" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="542.5" y="524" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-17" target="q9lYDYSO_4LSXGfJuMby-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-17" value="队列和子类别建立" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="542.5" y="590" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-19" target="q9lYDYSO_4LSXGfJuMby-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-19" value="建立某类别下的过滤器" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="542.5" y="649" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-7" target="q9lYDYSO_4LSXGfJuMby-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405.3800000000001" y="478" as="sourcePoint" />
+            <mxPoint x="404.59500000000025" y="506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-22" target="q9lYDYSO_4LSXGfJuMby-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-22" value="确定链路参数变化所对应虚拟机" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="542.5" y="395" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-23" value="终&lt;br&gt;端&lt;br&gt;行&lt;br style=&quot;font-size: 15px&quot;&gt;为&lt;br style=&quot;font-size: 15px&quot;&gt;映&lt;br style=&quot;font-size: 15px&quot;&gt;射&lt;br style=&quot;font-size: 15px&quot;&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="240" y="458" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-24" value="链&lt;br style=&quot;font-size: 15px;&quot;&gt;路&lt;br style=&quot;font-size: 15px;&quot;&gt;性&lt;br style=&quot;font-size: 15px;&quot;&gt;能&lt;br style=&quot;font-size: 15px;&quot;&gt;控&lt;br style=&quot;font-size: 15px;&quot;&gt;制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="766" y="395" width="25" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-25" target="q9lYDYSO_4LSXGfJuMby-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-25" value="终端行为联动关系分析" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="298.19" y="370" width="194.38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-26" value="节点状态文件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="110" y="434" width="80" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-28" value="解析DNDL文件得到仿真参数" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="300" y="290" width="194.38" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.542;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="yylhXVAfNhrHOLTcQKic-1" source="q9lYDYSO_4LSXGfJuMby-3" target="q9lYDYSO_4LSXGfJuMby-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393.5" y="210" as="sourcePoint" />
+            <mxPoint x="395.3539599999999" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-30" value="节点位置文件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="110" y="585" width="80" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="q9lYDYSO_4LSXGfJuMby-31" value="节点连接关系文件" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="yylhXVAfNhrHOLTcQKic-1">
+          <mxGeometry x="120" y="673" width="80" height="52" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
