@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-19T03:16:20.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="5Qftqak7wM895y3E_js0" version="13.4.6" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-07-19T03:18:04.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="obrwmE6YQh0Mb6Jlt-Wp" version="13.4.6" type="github" pages="13">
   <diagram id="co10jvuRVFvH3Up8rUBE" name="链路性能仿真流程图">
     <mxGraphModel dx="946" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
         <mxCell id="nL1qTaoogKZNM0GRkIF4-4" value="将终端行为映射为对具体链路或节点的控制方式" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" parent="XkxrOACsHn2WorxNWKab-1" vertex="1">
           <mxGeometry x="884" y="461" width="230.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oKFkQluGdZ1k9_ZqpWQq-0" value="读写节点状态文件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="XkxrOACsHn2WorxNWKab-1">
+        <mxCell id="oKFkQluGdZ1k9_ZqpWQq-0" value="解析DNDL文件描述终端行为" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=15;" vertex="1" parent="XkxrOACsHn2WorxNWKab-1">
           <mxGeometry x="884" y="164" width="230.75" height="40" as="geometry" />
         </mxCell>
       </root>
